@@ -1,8 +1,6 @@
-import { PrismaClient, Role } from '@prisma/client'
-import * as bcrypt from 'bcrypt'
-import * as dotenv from 'dotenv'
-
-dotenv.config()
+const { PrismaClient, Role } = require('@prisma/client')
+const bcrypt = require('bcrypt')
+require('dotenv').config()
 
 const prisma = new PrismaClient()
 
@@ -25,13 +23,13 @@ async function main() {
   }
 
   const hashedPassword = await bcrypt.hash(
-    process.env.SUPER_ADMIN_PASSWORD as string,
+    process.env.SUPER_ADMIN_PASSWORD,
     10,
   )
 
   await prisma.user.create({
     data: {
-      name: process.env.SUPER_ADMIN_NAME as string,
+      name: process.env.SUPER_ADMIN_NAME,
       email,
       password: hashedPassword,
       role: Role.SUPER_ADMIN,
@@ -49,3 +47,4 @@ main()
   .finally(async () => {
     await prisma.$disconnect()
   })
+  
