@@ -18,11 +18,11 @@ StoreFlow is an enterprise-grade backend service powering retail POS systems, mu
 ---
 
 ## ✨ Key Features
-- ⚡ **Modular NestJS architecture with strict dependency injection**: Modular NestJS architecture with strict dependency injection
-- ⚡ **Role-Based Access Control (Superadmin, Store Manager, Cashier)**: Role-Based Access Control (Superadmin, Store Manager, Cashier)
-- ⚡ **Automated inventory deduction and low-stock threshold alerting**: Automated inventory deduction and low-stock threshold alerting
-- ⚡ **Shift management and cash-in/cash-out drawer logs**: Shift management and cash-in/cash-out drawer logs
-- ⚡ **Exportable financial audits and sales analytics**: Exportable financial audits and sales analytics
+- Modular NestJS architecture with strict dependency injection
+- Role-Based Access Control (Superadmin, Store Manager, Cashier)
+- Automated inventory deduction and low-stock threshold alerting
+- Shift management and cash-in/cash-out drawer logs
+- Exportable financial audits and sales analytics
 
 ---
 
