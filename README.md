@@ -12,12 +12,12 @@
 
 ---
 
-## 📌 Overview
+## Overview
 StoreFlow is an enterprise-grade backend service powering retail POS systems, multi-outlet inventories, cash flow tracking, and supplier operations.
 
 ---
 
-## ✨ Key Features
+## Key Features
 - Modular NestJS architecture with strict dependency injection
 - Role-Based Access Control (Superadmin, Store Manager, Cashier)
 - Automated inventory deduction and low-stock threshold alerting
@@ -26,7 +26,7 @@ StoreFlow is an enterprise-grade backend service powering retail POS systems, mu
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Framework**: NestJS
 - **Language**: TypeScript
 - **ORM**: Prisma ORM
@@ -35,7 +35,7 @@ StoreFlow is an enterprise-grade backend service powering retail POS systems, mu
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```text
 StoreFlow/
 ├── src/
@@ -51,7 +51,7 @@ StoreFlow/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have the required runtimes and tools installed on your machine:
@@ -70,7 +70,7 @@ npm run start:dev
 
 ---
 
-## 👤 Author
+## Author
 **Mohammad Kevin Arif Rudianto**
 - **GitHub:** [@MohammadKevin](https://github.com/MohammadKevin)
 - **Portfolio:** [portfolio-mohammadkevin.vercel.app](https://portfolio-mohammadkevin.vercel.app)
@@ -79,9 +79,9 @@ npm run start:dev
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 <div align="center">
-⭐️ If you found this repository useful, please consider giving it a star!
+If you found this repository useful, please consider giving it a star!
 </div>
